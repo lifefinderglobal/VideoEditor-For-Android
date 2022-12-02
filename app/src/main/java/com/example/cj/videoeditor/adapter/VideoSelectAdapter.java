@@ -25,8 +25,8 @@ import java.util.List;
 public class VideoSelectAdapter extends CursorAdapter {
     MediaSelectVideoActivity activity;
 
-    List<String> coverList=new ArrayList();
-    List<String> pathList=new ArrayList();
+    List<String> coverList = new ArrayList();
+    List<String> pathList = new ArrayList();
 
     int maxSize = -1;  // 最大size
 
